@@ -78,7 +78,7 @@ El repositorio está organizado en archivos y carpetas para separar las funciona
 
 - _api/ Carpeta que contiene los scripts relacionados con la **API del INEGI**. Dentro encontrarás uno o varios archivos `.R` que construyen las consultas a la API y manejan las respuestas. Por ejemplo, podría haber scripts dedicados a distintos conjuntos de indicadores (económicos, sociodemográficos, etc.) o funciones generales para hacer peticiones a la API y formatear los resultados. En general, cualquier código encargado de conectarse directamente a los endpoints de INEGI reside aquí.
 
-- _cni/` Carpeta con los scripts para el **Catálogo Nacional de Indicadores (CNI)**. Aquí se incluyen archivos `.R` que obtienen datos de indicadores clave publicados en el CNI. Pueden conectarse a algún servicio web del catálogo, descargar archivos de datos (como Excel/CSV) o realizar web scraping de páginas HTML donde estén las series. Luego, transforman esos datos al formato requerido. Estos scripts complementan la información que no esté accesible mediante la API del INEGI.
+- _cni/ Carpeta con los scripts para el **Catálogo Nacional de Indicadores (CNI)**. Aquí se incluyen archivos `.R` que obtienen datos de indicadores clave publicados en el CNI. Pueden conectarse a algún servicio web del catálogo, descargar archivos de datos (como Excel/CSV) o realizar web scraping de páginas HTML donde estén las series. Luego, transforman esos datos al formato requerido. Estos scripts complementan la información que no esté accesible mediante la API del INEGI.
 
 - README.md Este archivo que estás leyendo. Proporciona la documentación del proyecto, incluyendo la descripción, instrucciones de uso, y otros detalles para que cualquier colaborador o usuario entienda el propósito y la forma de utilizar el código.
 
@@ -89,3 +89,10 @@ El repositorio está organizado en archivos y carpetas para separar las funciona
 ## Licencia
 
 Este proyecto está disponible bajo **The MIT License (MIT)**. Esto significa que puedes usar, modificar y distribuir el código libremente, siempre que incluyas la nota de copyright y la licencia MIT en cualquier copia o derivación del código. Consulta el archivo **LICENSE** en este repositorio para ver el texto completo de la licencia.
+
+
+
+# Automatización de actualización de información estadística
+
+**Automatización de actualización de información estadística** es un proyecto que implementa técnicas para **automatizar la obtención y actualización de datos estadísticos** (por ejemplo, indicadores publicados por INEGI) en plataformas de información. Los scripts incluidos permiten descargar series de indicadores automáticamente y mantener bases de datos o informes siempre actualizados con la información más reciente.
+
