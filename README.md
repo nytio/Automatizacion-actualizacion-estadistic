@@ -76,13 +76,13 @@ Este fragmento es ilustrativo; en general cada script .R de la carpeta adecuada 
 
 El repositorio está organizado en archivos y carpetas para separar las funcionalidades. A continuación se describe la función de cada parte principal del proyecto:
 
--     `_api/` – Carpeta que contiene los scripts relacionados con la **API del INEGI**. Dentro encontrarás uno o varios archivos `.R` que construyen las consultas a la API y manejan las respuestas. Por ejemplo, podría haber scripts dedicados a distintos conjuntos de indicadores (económicos, sociodemográficos, etc.) o funciones generales para hacer peticiones a la API y formatear los resultados. En general, cualquier código encargado de conectarse directamente a los endpoints de INEGI reside aquí.
+- _api/ Carpeta que contiene los scripts relacionados con la **API del INEGI**. Dentro encontrarás uno o varios archivos `.R` que construyen las consultas a la API y manejan las respuestas. Por ejemplo, podría haber scripts dedicados a distintos conjuntos de indicadores (económicos, sociodemográficos, etc.) o funciones generales para hacer peticiones a la API y formatear los resultados. En general, cualquier código encargado de conectarse directamente a los endpoints de INEGI reside aquí.
 
--     `_cni/` – Carpeta con los scripts para el **Catálogo Nacional de Indicadores (CNI)**. Aquí se incluyen archivos `.R` que obtienen datos de indicadores clave publicados en el CNI. Pueden conectarse a algún servicio web del catálogo, descargar archivos de datos (como Excel/CSV) o realizar web scraping de páginas HTML donde estén las series. Luego, transforman esos datos al formato requerido. Estos scripts complementan la información que no esté accesible mediante la API del INEGI.
+- _cni/` Carpeta con los scripts para el **Catálogo Nacional de Indicadores (CNI)**. Aquí se incluyen archivos `.R` que obtienen datos de indicadores clave publicados en el CNI. Pueden conectarse a algún servicio web del catálogo, descargar archivos de datos (como Excel/CSV) o realizar web scraping de páginas HTML donde estén las series. Luego, transforman esos datos al formato requerido. Estos scripts complementan la información que no esté accesible mediante la API del INEGI.
 
--     `README.md` – Este archivo que estás leyendo. Proporciona la documentación del proyecto, incluyendo la descripción, instrucciones de uso, y otros detalles para que cualquier colaborador o usuario entienda el propósito y la forma de utilizar el código.
+- README.md Este archivo que estás leyendo. Proporciona la documentación del proyecto, incluyendo la descripción, instrucciones de uso, y otros detalles para que cualquier colaborador o usuario entienda el propósito y la forma de utilizar el código.
 
--     `LICENSE` – Archivo de licencia del proyecto, en el cual se establece que el código se distribuye bajo la licencia MIT. Esto permite a otros reutilizar el código libremente bajo las condiciones de dicha licencia.
+- LICENSE Archivo de licencia del proyecto, en el cual se establece que el código se distribuye bajo la licencia MIT. Esto permite a otros reutilizar el código libremente bajo las condiciones de dicha licencia.
 
 (Nota: Si el repositorio incluye otros archivos o carpetas, como datos de ejemplo, configuraciones o scripts adicionales, se deberían describir aquí también. Asegúrate de documentar cualquier archivo relevante, por ejemplo, una carpeta `output/` donde se guarden los resultados, un script principal para correr todo el proceso de una vez, etc., si existieran.)
 
