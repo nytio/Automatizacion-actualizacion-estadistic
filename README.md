@@ -89,10 +89,3 @@ El repositorio está organizado en archivos y carpetas para separar las funciona
 ## Licencia
 
 Este proyecto está disponible bajo **The MIT License (MIT)**. Esto significa que puedes usar, modificar y distribuir el código libremente, siempre que incluyas la nota de copyright y la licencia MIT en cualquier copia o derivación del código. Consulta el archivo **LICENSE** en este repositorio para ver el texto completo de la licencia.
-
-
-
-# Automatización de actualización de información estadística
-
-**Automatización de actualización de información estadística** es un proyecto que implementa técnicas para **automatizar la obtención y actualización de datos estadísticos** (por ejemplo, indicadores publicados por INEGI) en plataformas de información. Los scripts incluidos permiten descargar series de indicadores automáticamente y mantener bases de datos o informes siempre actualizados con la información más reciente.
-
