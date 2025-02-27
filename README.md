@@ -40,7 +40,7 @@ A continuación se muestran ejemplos de cómo utilizar los scripts en R y los pa
 
 1. **Clonar el repositorio**: Descarga o clona este repositorio en tu máquina local para tener acceso a los scripts. Por ejemplo, usando Git:  
    ```
-   git clone https://github.com/nytio/Automatizacion-actualizacion-estadistica.git
+   git clone https://github.com/nytio/Automatizacion-actualizacion-estadistic.git
    ```
    Luego, abre R o RStudio en el directorio del repositorio.
 
